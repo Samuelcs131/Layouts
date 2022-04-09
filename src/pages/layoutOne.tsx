@@ -1,4 +1,4 @@
-import Head from "next/head";
+import HeadPage from "../components/HeadPage";
 import Menu from "../components/layoutOne/menu/Menu"; 
 import SectionMain from "../components/layoutOne/section-main/SectionMain";
 import Section from "../components/layoutOne/section/Section";
@@ -6,7 +6,7 @@ import { themeMain } from "../styles/colorsPallet";
 
 const layoutOne = () => {
     return(<>
-        <Head><title>Layout - One</title></Head>
+        <HeadPage titlePage="LayoutOne"/>
         <Menu/>
         <SectionMain/>
         <Section id={'section-1'} colorBackground={themeMain.Malibu}/>

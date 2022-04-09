@@ -1,11 +1,11 @@
-import Head from "next/head";
+import HeadPage from "../components/HeadPage";
 import Content from "../components/layoutTwo/content/Content";
 import { ContainerLayoutTwo } from "../components/layoutTwo/LayoutTwo-style";
 import Menu from "../components/layoutTwo/menu/Menu";
 
 const LayoutTwo = () => {
     return(<>
-        <Head><title>LayoutTwo</title></Head>
+       <HeadPage titlePage="LayoutTwo"/>
        <ContainerLayoutTwo>
             <Menu/>
             <Content/>
