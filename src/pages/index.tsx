@@ -23,32 +23,24 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/layoutOne" className={styles.card}>
+            <h2>Layout One &rarr;</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, voluptas asperiores.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="/layoutTwo" className={styles.card}>
+            <h2>Layout Two &rarr;</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, voluptas asperiores.</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="/layoutThree" className={styles.card}>
+            <h2>Layout Three &rarr;</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, voluptas asperiores.</p>
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a href="/layoutFour" className={styles.card}>
+            <h2>Layout Four &rarr;</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, voluptas asperiores.</p>
           </a>
         </div>
       </main>
