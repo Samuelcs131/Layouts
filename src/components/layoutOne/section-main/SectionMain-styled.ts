@@ -13,14 +13,14 @@ export const ContainerSectionMain = styled.section`
     }
 
     .content{
-        width: 520px;
+        width: 250px;
         height: 30px;
         border-radius: 90px;
         background-color: ${themeMain.White};
         position: relative;
         &::before {
             content: '';
-            width: 360px;
+            width: 120px;
             height: 30px;
             background: #fff;
             position: absolute;
@@ -31,7 +31,7 @@ export const ContainerSectionMain = styled.section`
         }
         &::after {
             content: '';
-            width: 200px;
+            width: 90px;
             height: 30px;
             background: #fff;
             position: absolute;
